@@ -7,8 +7,8 @@ import joblib
 # -----------------------------
 # Load model & scaler
 # -----------------------------
-iforest = joblib.load(r"C:\Users\krish\fa1\venv\tls_iforest.pkl")
-scaler = joblib.load(r"C:\Users\krish\fa1\venv\tls_scaler.pkl")
+iforest = joblib.load(r"\tls_iforest.pkl")
+scaler = joblib.load(r"ls_scaler.pkl")
 
 # -----------------------------
 # FastAPI app
